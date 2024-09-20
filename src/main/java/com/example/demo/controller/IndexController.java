@@ -14,4 +14,8 @@ public class IndexController {
 	public String list() {
 		return "list";
 	}
+	@GetMapping("/insert")
+	public String insert() {
+		return "insert";
+	}
 }
